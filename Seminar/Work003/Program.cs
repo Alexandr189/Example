@@ -13,12 +13,12 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Введите второе число");
 int number2 = Convert.ToInt32(Console.ReadLine());
 
-if (number1 * number1 == number2 || number2*number2 == number1) 
+if (number1 * number1 == number2 || number2 * number2 == number1)
 {
     System.Console.WriteLine("Число является квадратом другого");
 }
 
-else 
+else
 {
     System.Console.WriteLine(" Число не является квадратом другого");
 }

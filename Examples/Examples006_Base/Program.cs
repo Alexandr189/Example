@@ -5,11 +5,11 @@ int d = 8;
 int e = 4;
 
 int max = a;
- if (a>max) max = a;
- if (b>max) max = b;
- if (c>max) max = c;
- if (d>max) max = d;
- if (e>max) max = e;
+if (a > max) max = a;
+if (c > max) max = c;
+if (d > max) max = d;
+if (b > max) max = b;
+if (e > max) max = e;
 
- System.Console.Write("max=");
- System.Console.WriteLine(max);
+System.Console.Write("max=");
+System.Console.WriteLine(max);

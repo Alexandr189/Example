@@ -1,0 +1,15 @@
+E:\Учеба\C#\Seminar\Work003\bin\Debug\net6.0\Work003.exe
+E:\Учеба\C#\Seminar\Work003\bin\Debug\net6.0\Work003.deps.json
+E:\Учеба\C#\Seminar\Work003\bin\Debug\net6.0\Work003.runtimeconfig.json
+E:\Учеба\C#\Seminar\Work003\bin\Debug\net6.0\Work003.dll
+E:\Учеба\C#\Seminar\Work003\bin\Debug\net6.0\Work003.pdb
+E:\Учеба\C#\Seminar\Work003\obj\Debug\net6.0\Work003.csproj.AssemblyReference.cache
+E:\Учеба\C#\Seminar\Work003\obj\Debug\net6.0\Work003.GeneratedMSBuildEditorConfig.editorconfig
+E:\Учеба\C#\Seminar\Work003\obj\Debug\net6.0\Work003.AssemblyInfoInputs.cache
+E:\Учеба\C#\Seminar\Work003\obj\Debug\net6.0\Work003.AssemblyInfo.cs
+E:\Учеба\C#\Seminar\Work003\obj\Debug\net6.0\Work003.csproj.CoreCompileInputs.cache
+E:\Учеба\C#\Seminar\Work003\obj\Debug\net6.0\Work003.dll
+E:\Учеба\C#\Seminar\Work003\obj\Debug\net6.0\refint\Work003.dll
+E:\Учеба\C#\Seminar\Work003\obj\Debug\net6.0\Work003.pdb
+E:\Учеба\C#\Seminar\Work003\obj\Debug\net6.0\Work003.genruntimeconfig.cache
+E:\Учеба\C#\Seminar\Work003\obj\Debug\net6.0\ref\Work003.dll

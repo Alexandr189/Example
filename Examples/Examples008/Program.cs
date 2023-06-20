@@ -10,7 +10,7 @@
 int GetData()
 {
     System.Console.Write("Введите значение");
-    return Convert. ToInt32(Console. ReadLine());
+    return Convert.ToInt32(Console. ReadLine());
 }
 
 int a = GetData();

@@ -1,0 +1,15 @@
+E:\Учеба\C#\HomeWork24.06\Examples21\bin\Debug\net6.0\Examples21.exe
+E:\Учеба\C#\HomeWork24.06\Examples21\bin\Debug\net6.0\Examples21.deps.json
+E:\Учеба\C#\HomeWork24.06\Examples21\bin\Debug\net6.0\Examples21.runtimeconfig.json
+E:\Учеба\C#\HomeWork24.06\Examples21\bin\Debug\net6.0\Examples21.dll
+E:\Учеба\C#\HomeWork24.06\Examples21\bin\Debug\net6.0\Examples21.pdb
+E:\Учеба\C#\HomeWork24.06\Examples21\obj\Debug\net6.0\Examples21.csproj.AssemblyReference.cache
+E:\Учеба\C#\HomeWork24.06\Examples21\obj\Debug\net6.0\Examples21.GeneratedMSBuildEditorConfig.editorconfig
+E:\Учеба\C#\HomeWork24.06\Examples21\obj\Debug\net6.0\Examples21.AssemblyInfoInputs.cache
+E:\Учеба\C#\HomeWork24.06\Examples21\obj\Debug\net6.0\Examples21.AssemblyInfo.cs
+E:\Учеба\C#\HomeWork24.06\Examples21\obj\Debug\net6.0\Examples21.csproj.CoreCompileInputs.cache
+E:\Учеба\C#\HomeWork24.06\Examples21\obj\Debug\net6.0\Examples21.dll
+E:\Учеба\C#\HomeWork24.06\Examples21\obj\Debug\net6.0\refint\Examples21.dll
+E:\Учеба\C#\HomeWork24.06\Examples21\obj\Debug\net6.0\Examples21.pdb
+E:\Учеба\C#\HomeWork24.06\Examples21\obj\Debug\net6.0\Examples21.genruntimeconfig.cache
+E:\Учеба\C#\HomeWork24.06\Examples21\obj\Debug\net6.0\ref\Examples21.dll

@@ -12,7 +12,7 @@ int[] array = new int[number];
 
 for(int i = 1; i<= number; i++)
 {
-    array[i-1]= (int) Math.Pow(i,3);
+    array[i-1]= (int) Math.Pow(i,2);
 }
 
 System.Console.WriteLine("[" + string.Join(", ", array)+ "]");

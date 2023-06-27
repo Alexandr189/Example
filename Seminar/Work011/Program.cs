@@ -9,7 +9,7 @@ void Main()
 {
     int[] array = FillArray(5, -9, 9);
     PrintArray(array);
-    // FindSumNegativeAndPositive(array, out int sumPositive, out int sumNegative);
+    FindSumNegativeAndPositive(array, out int sumPositive, out int sumNegative);
     int sumPositive = SumArray(array);
     int sumNegative = SumArray(array, false);
     System.Console.WriteLine($"Сумма положительных чисел: {sumPositive}");

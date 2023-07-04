@@ -24,7 +24,6 @@ int SumNumber(int number)
     return result;
     
 }
-
 //-------------------------------------------------
 
 

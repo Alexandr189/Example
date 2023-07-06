@@ -3,7 +3,14 @@
 // Если N = 3 -> 0 1 1
 // Если N = 7 -> 0 1 1 2 3 5 8
 
-
+void Main ()
+{int fibonacci = ReadInt("Введите колличество чисел фиббоначи: ");
+if (fibonacci<=0)
+{
+    System.Console.WriteLine("Тут ни чего не получится");
+}
+else PrintArray(Fibonach(fibonacci));
+}
 
 void PrintArray(int[] arrayForPrint)
 {
@@ -41,6 +48,5 @@ int ReadInt(string text)
 }
 
 //--------------------------------------
+Main();
 
-int fibonacci = ReadInt("Введите колличество чисел фиббоначи: ");
-PrintArray(Fibonach(fibonacci));

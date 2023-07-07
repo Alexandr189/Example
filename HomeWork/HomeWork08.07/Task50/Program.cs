@@ -41,15 +41,15 @@ void PrintMatrix(int[,] matrixForPrint)
     }
 }
 
-void PrintNumberMatrix(int [,] matrix , int rows , int cols)
+void PrintNumberMatrix(int[,] matrix, int rows, int cols)
 {
-    if(rows>matrix.GetLength(0) || cols > matrix.GetLength(1))
+    if (rows > matrix.GetLength(0) || cols > matrix.GetLength(1))
     {
         System.Console.WriteLine("Такого числа нет");
     }
-    else System.Console.WriteLine(matrix[rows-1,cols-1]);
-        
-    
+    else System.Console.WriteLine(matrix[rows - 1, cols - 1]);
+
+
 
 }
 //------------------------------------------------------
@@ -63,4 +63,4 @@ System.Console.WriteLine();
 
 int numberRows = ReadInt("Введите номер строки: ");
 int numberCols = ReadInt("Введите номер столбца: ");
-PrintNumberMatrix(matrix,numberRows,numberCols);
+PrintNumberMatrix(matrix, numberRows, numberCols);

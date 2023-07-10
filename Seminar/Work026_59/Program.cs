@@ -35,8 +35,6 @@ int[,] FillMatrix(int row, int col, int leftRange, int rightRange)
     return tempMatrix;
 }
 
-
-
 void PrintMatrix(int[,] matrixForPrint)
 {
     for (int i = 0; i < matrixForPrint.GetLength(0); i++)
@@ -56,25 +54,33 @@ int col = ReadInt("Введите количество столбцов: ");
 int[,] matrix = FillMatrix(row, col, 0, 9);
 PrintMatrix(matrix);
 
-int[,] newArray = new int [row -1 , col - 1];
+int[,] newArray = new int[row - 1, col - 1];
 int indexI = 0; int indexJ = 0;
+
 for (int i = 0; i < matrix.GetLength(0); i++)
+{
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        for (int j = 0; j < matrix.GetLength(1); j++)
+        if (matrix[indexI, indexJ] > matrix[i, j])
         {
-           if(matrix[indexI,indexJ]> matrix[i,j])
-           {
             indexI = i;
             indexJ = j;
-           }
         }
-       
     }
-    for (int i = 0; i < matrix.GetLength(0); i++)
+
+}
+
+for (int i = 0, newRow = 0; i < matrix.GetLength(0); i++)
+{
+    if (i == indexI) continue; //переход к следующей итерации
+    for (int j = 0, newCol = 0; j < matrix.GetLength(1); j++)
     {
-        if (i == indexI) continue;
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            if (j == indexJ) continue;
-        }
+        if (j == indexJ) continue;
+        newArray[newRow, newCol] = matrix[i, j];
+        newCol++;
     }
+    newRow++;
+}
+
+System.Console.WriteLine();
+PrintMatrix(newArray);
